@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6655b33a-1a38-4874-9a20-97c2b3e17721" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1111/EventService/Mex" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Mex.xsd" MetadataType="Schema" ID="b575318d-5020-4241-9483-77ce7b551bbc" SourceId="1" SourceUrl="http://localhost:1111/EventService/Mex?xsd=xsd1" />
+    <MetadataFile FileName="StatusService.wsdl" MetadataType="Wsdl" ID="2acef2a8-1210-4b79-9609-cf7e4b685605" SourceId="1" SourceUrl="http://localhost:1111/EventService/Mex" />
+    <MetadataFile FileName="Mex2.xsd" MetadataType="Schema" ID="3772cd46-6e47-4d26-b2eb-bb73faa13f05" SourceId="1" SourceUrl="http://localhost:1111/EventService/Mex?xsd=xsd2" />
+    <MetadataFile FileName="Mex1.xsd" MetadataType="Schema" ID="0f7a4f10-b4ef-44bf-b465-2ec51451f60e" SourceId="1" SourceUrl="http://localhost:1111/EventService/Mex?xsd=xsd0" />
+    <MetadataFile FileName="Mex.wsdl" MetadataType="Wsdl" ID="61ecef9b-c7db-429e-a70f-0b476342ae62" SourceId="1" SourceUrl="http://localhost:1111/EventService/Mex?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
